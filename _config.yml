@@ -18,6 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+name: Build Jekyll for GitHub Pages
+uses: actions/jekyll-build-pages@v1.0.5
 title: title
 email: email
 description: the post.
