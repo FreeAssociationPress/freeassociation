@@ -19,12 +19,13 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: true
-
+  
 jobs:
   # Build job
-  build:
-    runs-on: ubuntu-latest
-    steps:
+      - name: Bundle install
+        run: |
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Pages
@@ -35,7 +36,6 @@ jobs:
           source: ./
           destination: ./_site
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
 
   # Deployment job
   deploy:
@@ -48,3 +48,10 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+        
+  - uses: actions/cache@v2
+    with:
+      path: vendor/bundle
+      key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+      restore-keys: |
+        ${{ runner.os }}-gems-
