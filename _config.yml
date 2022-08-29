@@ -21,8 +21,8 @@
 title: title
 email: email
 description: the post.
-baseurl: "postr" # the subpath of your site, e.g. /blog
-url: "freeassociation.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /_blog # the subpath of your site, e.g. /blog
+url: freeassociation.github.io # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: null
 # github_username:  null
 
