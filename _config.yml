@@ -27,18 +27,11 @@ url: "freeassociation.github.io" # the base hostname & protocol for your site, e
 github_username:  FreeAssociationPress
 
 # Build settings
-theme: jekyll-theme-chirpy
+theme: minima
+  dark:
 plugins:
   - jekyll-feed
-  - jekyll-admin
-  - sinatra
-  - sinatra-contrib
-  - jekyll-feed
-  - jekyll-archives
-  - jekyll-paginate
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-sitemap
+  - github-pages
 
 # Exclude from processing.
 # The following items will not be processed, by default.
