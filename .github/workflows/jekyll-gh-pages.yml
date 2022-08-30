@@ -20,31 +20,6 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
-# Site settings
-env:
- title: freeassociation
- email: admin@freeassociationpress.org
- description: freeassociationpress.org
- baseurl: "postr" # the subpath of your site, e.g. /blog
- url: "freeassociation.github.io" # the base hostname & protocol for your site, e.g. http://example.com
- #twitter_username: _Blank
- github_username:  FreeAssociationPress
-
-# Build settings
-defaults:
- theme: jekyll-theme-chirpy
-  plugins:
-  - jekyll-feed
-  - jekyll-admin
-  - sinatra
-  - sinatra-contrib
-  - jekyll-feed
-  - jekyll-archives
-  - jekyll-paginate
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
 jobs:
   # Build job
   build:
