@@ -27,6 +27,10 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
 end
 
+group :test do
+  gem "html-proofer", "~> 3.18"
+end
+
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
@@ -38,13 +42,6 @@ end
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
-gem "jekyll-admin"
-gem "github-pages"
-gem 'sinatra'
-gem 'sinatra-contrib'
-gem 'jekyll-feed'
-gem 'jekyll-archives'
-gem 'jekyll-paginate'
-gem 'jekyll-redirect-from'
-gem 'jekyll-seo-tag'
-gem 'jekyll-sitemap'
+
+# Jekyll <= 4.2.0 compatibility with Ruby 3.0
+gem "webrick", "~> 1.7"
