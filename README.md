@@ -1,2 +1,1 @@
 # freeassociation post
-Jekyll blog.
