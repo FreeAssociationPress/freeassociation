@@ -1,1 +1,2 @@
 # freeassociation
+  .static-landing
