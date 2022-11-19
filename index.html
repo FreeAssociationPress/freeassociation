@@ -95,7 +95,571 @@ neonCursor({
 //# sourceURL=pen.js
     </script>
 
-  
+      <script src="https://unpkg.com/webamp@1.5.0/built/webamp.bundle.min.js"></script>
+    <script src="https://unpkg.com/butterchurn@2.6.7/lib/butterchurn.min.js"></script>
+    <script src="https://unpkg.com/butterchurn-presets@2.4.7/lib/butterchurnPresets.min.js"></script>
+    <script>
+        const Webamp = window.Webamp;
+        new Webamp({
+            initialTracks: [
+                {
+                metaData: {
+                    artist: "DJ Mike Llama",
+                    title: "Llama Whippin' Intro"
+                },
+                url: "https://cdn.jsdelivr.net/gh/captbaritone/webamp@43434d82cfe0e37286dbbe0666072dc3190a83bc/mp3/llama-2.91.mp3",
+                duration: 5.322286
+            },
+                    {
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "10 15 saturday night"
+                    },
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/10-15-saturday-night.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                          tite: "a forest"
+                    },                   
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/a-forest.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "a night like this"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/a-night-like-this.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "a strange day"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/a-strange-day.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "ashes of american flags"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/ashes-of-american-flags.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "blow wind blow"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/blow-wind-blow.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "boys dont cry"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/boys-dont-cry.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "charlotte sometimes"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/charlotte-sometimes.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "close to me"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/close-to-me.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "cold cold ground"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/cold-cold-ground.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "crackity jones"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/crackity-jones.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "dead"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/dead.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "faith"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/faith.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "franks theme"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/franks-theme.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "give me it"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/give-me-it.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "gouge away"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/gouge-away.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "hang on st. christopher"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/hang-on-st.-christopher.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "heavy metal drummer"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/heavy-metal-drummer.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "here comes your man"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/here-comes-your-man.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "hey"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/hey.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "i am trying to break your heart"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/i-am-trying-to-break-your-heart.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "i bleed"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/i-bleed.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "ill be gone"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/ill-be-gone.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "ill take new york"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/ill-take-new-york.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "im the man who loves you"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/im-the-man-who-loves-you.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "in between days"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/in-between-days.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "innocent when you dream (78)"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/innocent-when-you-dream-(78).mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "innocent when you dream"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/innocent-when-you-dream.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "jesus etc"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/jesus-etc.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "kamera"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/kamera.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "killing an arab"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/killing-an-arab.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "kyoto song"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/kyoto-song.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "la love you"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/la-love-you.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "lets go to bed"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/lets-go-to-bed.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "monkey gone to heaven"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/monkey-gone-to-heaven.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "more than rain"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/more-than-rain.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "mr. grieves"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/mr.-grieves.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "no. 13 baby"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/no.-13-baby.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "one hundred years"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/one-hundred-years.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "piggy in the mirror"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/piggy-in-the-mirror.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "play for today"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/play-for-today.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "please wake me up"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/please-wake-me-up.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "poor places"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/poor-places.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "pot kettle black"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/pot-kettle-black.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "primary"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/primary.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "push"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/push.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "radio cure"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/radio-cure.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "reservations"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/reservations.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "shake dog shake"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/shake-dog-shake.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "shes automatic"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/shes-automatic.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "silver"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/silver.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "sinking"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/sinking.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "six different ways"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/six-different-ways.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "straight to the top (vegas version)"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/straight-to-the-top-(vegas-version).mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "straight to the top"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/straight-to-the-top.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "tame"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/tame.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "telephone call from istanbul"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/telephone-call-from-istanbul.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "temptation"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/temptation.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "the walk"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/the-walk.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "there goes my gun"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/there-goes-my-gun.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "three imaginary boys"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/three-imaginary-boys.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "train song"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/train-song.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "war on war"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/war-on-war.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "wave of mutilation"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/wave-of-mutilation.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "way down the hole"
+                    },    
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/way-down-the-hole.mp3",
+                    duration: 5.322
+                },
+                {                    
+                    metaData: {
+                        artist: "DJ Ai",
+                        title: "yesterday is here"
+                    },
+                    url: "https://raw.githubusercontent.com/FreeAssociationPress/tarot-ble/main/tracks/yesterday-is-here.mp3",
+                    duration: 5.322
+                }],
+                
+            __butterchurnOptions: {
+                importButterchurn: () => Promise.resolve(window.butterchurn),
+                getPresets: () => {
+                    const presets = window.butterchurnPresets.getPresets();
+                    return Object.keys(presets).map((name) => {
+                        return {
+                            name,
+                            butterchurnPresetObject: presets[name]
+                        };
+                    });
+                },
+                butterchurnOpen: true
+            },
+            __initialWindowLayout: {
+                main: { position: { x: 0, y: 0 } },
+                equalizer: { position: { x: 0, y: 116 } },
+                playlist: { position: { x: 0, y: 232 }, size: [0, 4] },
+                milkdrop: { position: { x: 275, y: 0 }, size: [7, 12] }
+            }
+        }).renderWhenReady(document.getElementById('app'));
+    </script>
 
 </body>
 
